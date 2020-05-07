@@ -1,6 +1,6 @@
 import React from "react";
 import OuterContainer from "./OuterContainer";
-import NavRect from "./NavRect";
+import NavRect from "./NavRect/NavRect";
 import styled from "styled-components";
 
 const HomePageDiv = styled.div`
