@@ -16,6 +16,9 @@ const NavRect = () => {
               <h2>Articles</h2>
             </SmallerRectangle>
           </SmallerRectangle>
+          <SideText positioned="right" onClick={() => setRotation(0)}>
+            <h2>Home</h2>
+          </SideText>
         </Rectangle>
 
         <Rectangle front>
@@ -33,6 +36,9 @@ const NavRect = () => {
         </Rectangle>
 
         <Rectangle right>
+          <SideText positioned="left" onClick={() => setRotation(0)}>
+            <h2>Home</h2>
+          </SideText>
           <SmallerRectangle>
             <SmallerRectangle>
               <h2>Contact us</h2>

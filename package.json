@@ -1,5 +1,5 @@
 {
-  "name": "app1",
+  "name": "rotating-cube-component",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,6 +29,6 @@
     "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "avemike",
   "license": "ISC"
 }
